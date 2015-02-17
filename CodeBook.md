@@ -52,7 +52,7 @@ Standard deviation
 There are 68 variables as following:
 
 [1] "Subject"  1:30
-[2] "Activity" - WALKING WALKING_UPSTAIRS WALKING_DOWNSTAIRS SITTING STANDING LAYING                             
+[2] "Activity" - WALKING WALKING_UPSTAIRS WALKING_DOWNSTAIRS SITTING STANDING LAYING                           
 [3] "tBodyAcc.average.X"                     
 [4] "tBodyAcc.average.Y"                     
 [5] "tBodyAcc.average.Z"                     
@@ -115,7 +115,7 @@ There are 68 variables as following:
 [62] "fBodyAccMag.standard.deviation"         
 [63] "fBodyBodyAccJerkMag.average"            
 [64] "fBodyBodyAccJerkMag.standard.deviation" 
-[65] "fBodyBodyGyroMag.average"               
+[65] "fBodyBodyGyroMag.average"           
 [66] "fBodyBodyGyroMag.standard.deviation"    
 [67] "fBodyBodyGyroJerkMag.average"           
 [68] "fBodyBodyGyroJerkMag.standard.deviation"

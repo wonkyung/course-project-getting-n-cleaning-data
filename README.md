@@ -24,25 +24,26 @@ This script produces a file named "tidydata.txt" which contains a data frame wit
 
 ### Steps
 1. Merge the training and the test sets to create one dataset
-    - a. Read test and training data
-    - b. Read features as column namnes
-    - c. Read y_xxx.txt as additional column
-    - d. Read subject as additional column
-    - e. Merge the two sets
+    - Read test and training data
+    - Read features as column namnes
+    - Read y_xxx.txt as additional column
+    - Read subject as additional column
+    - Merge the two sets
 
 2. Extracts only the measurements on the mean and standard deviation for each measurement
-    - a. Read test and training data
+    - Read test and training data
 
- 3. Uses descriptive activity names to name the activities in the data set
-    - a. Read activity names from the activity_labels.txt file
-    - b. Merge activity names with the merged data
+3. Uses descriptive activity names to name the activities in the data set
+    - Read activity names from the activity_labels.txt file
+    - Merge activity names with the merged data
 
- 4. Appropriately labels the data set with descriptive variable names. 
-    -a. replace column names matching std() and mean() with "standard deviation" and "average"
+4. Appropriately labels the data set with descriptive variable names. 
+    - replace column names matching std() and mean() with "standard deviation" and "average"
 
- 5. From the data set in step 4, 
-     creates a second, independent tidy data set 
-     with the average of each variable for each activity and each subject.
-     use group_by and summarise_each function from dplyr package.
-     create the outputfile "tidydata.txt" with write.table
+5. From the data set in step 4, 
+     - creates a second, independent tidy data set 
+	 - with the average of each variable for each activity and each subject.
+     - use group_by and summarise_each function from dplyr package.
+     - create the outputfile "tidydata.txt" with write.table
 
+	 
